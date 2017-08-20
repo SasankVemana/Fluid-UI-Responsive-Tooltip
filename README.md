@@ -20,7 +20,6 @@ The javascript provided - is an extension of the code provided in Osvaldo's blog
 
 JavaScript Injection Framework: https://pe0ples0ft.blogspot.com/p/javascript-injection-framework.html
 
+Demo:
 
-
-
-
+https://pe0ples0ft.blogspot.com/2017/08/fluid-ui-responsive-tooltip.html
