@@ -1,0 +1,12 @@
+   /* CSK - Start */
+   
+   /* Set Tooltip Text */
+   Local string &sToolTip = "If the donor does not have a last name, please enter the first name in the last name field and add FNU (First Name Unknown) on the first name field.";
+   
+   /* Add/update html attributes (rel, title) */
+   AV_SRCH_FLDS_WK.LAST_NAME_SRCH.HtmlAttributes = "rel=""tooltip"" title=""" | &sToolTip | """";
+   
+   /* Add Custom JavaScript */
+   AddJavaScript(HTML.CSK_TOOLTIP_JS);
+   
+   /* CSK - End */
